@@ -14,6 +14,6 @@ def conectar_email():
     mail.select("inbox")
     
     if status == "OK":
-            print("✅ Conectado e logado com sucesso!")
+            print("Conectado e logado com sucesso!")
     else:
-            print("❌ Erro ao fazer login:", response)
+            print("Erro ao fazer login:", response)
